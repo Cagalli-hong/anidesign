@@ -1,6 +1,4 @@
-import analysis from './pt-BR/analysis';
 import exception from './pt-BR/exception';
-import form from './pt-BR/form';
 import globalHeader from './pt-BR/globalHeader';
 import login from './pt-BR/login';
 import menu from './pt-BR/menu';
@@ -10,7 +8,6 @@ import settingDrawer from './pt-BR/settingDrawer';
 import settings from './pt-BR/settings';
 import pwa from './pt-BR/pwa';
 import component from './pt-BR/component';
-import editor from './pt-BR/editor';
 
 export default {
   'navBar.lang': 'Idiomas',
@@ -21,9 +18,7 @@ export default {
   'app.forms.basic.title': 'Basic form',
   'app.forms.basic.description':
     'Páginas de formulário são usadas para coletar e verificar as informações dos usuários e formulários básicos são comuns nos cenários onde existem alguns formatos de informações.',
-  ...analysis,
   ...exception,
-  ...form,
   ...globalHeader,
   ...login,
   ...menu,
@@ -32,6 +27,5 @@ export default {
   ...settingDrawer,
   ...settings,
   ...pwa,
-  ...component,
-  ...editor,
+  ...component
 };
